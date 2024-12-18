@@ -1,0 +1,178 @@
+#surveyError, #printResults, #errorRating, #messComment, #errorName, #errorEmail, #errorPass, #errorConfPass, #errorReg, #errorEmailLog, #errorPassLog, #errorBtnLog, #errorEmailMess, #errorTitle, #errorTextarea, #errorBtnSend{
+    color: #970a1d;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+input[type=button]:hover{
+    background-color: #f13360!important;
+}
+#btnSend, #btnPost{
+    padding: 10px 20px;
+}
+.postRecipe{
+    width: 480px!important;
+    height: 380px!important;
+    border: none!important;
+}
+#titlePost{
+    margin-left: 100px;
+}
+#adminPanel{
+    width: 100%;
+    display: flex;
+}
+#nav{
+    background-color: #f2f0f3;
+}
+#nav ul li{
+    margin: 20px 0px;
+}
+#nav div h1 a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    font-size: 35px;
+}
+#nav p{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #7b6871b6;
+    color: #fff;
+}
+#nav a{
+    padding: 15px;
+}
+.adminRecipe{
+    margin-left: 90px;
+    margin-bottom: 20px;
+    padding: 40px;
+    width: 50%;
+    border: 2px solid #7b6871b6;
+    border-radius: 4px;
+}
+.textAllRecipes h3{
+    font-size: 15px;
+    margin-top: 7px;
+}
+#allRecipesHeading{
+    padding: 30px;
+}
+.buttonsAdmin{
+    margin-top: 10px;
+    width: 7%;
+    text-align: center;
+    display: flex;
+}
+.recipeDelete{
+    margin-right: 10px;
+}
+.recipeDelete, .recipeUpdate, #updateRecipe, #addNewRecipe, .categoryDelete, .categoryUpdate, #updateCategory, #addNewCategory, #addAnswer, #addNewSurvey{
+    border-radius: 4px;
+    background-color: #7b6871b6;
+    color: #fff;
+    padding: 10px;
+}
+#addNewSurvey{
+    margin-left: 15px;
+}
+.categoryUpdate{
+    margin-left: 10px;
+}
+.buttonsAdmin a{
+    margin-bottom: 5px;
+}
+.updateDiv{
+    margin-left: 80px;
+    width: 1000px;
+}
+.updateDiv h2{
+    padding: 30px 0px;
+}
+.forImg{
+    width: 40%;
+}
+#imgInsertCategory{
+    margin-bottom: 15px;
+}
+#nameInsertCategory{
+    width: 100px;
+}
+#imgUpdate{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+#updateRecipe, #addNewRecipe, #updateCategory{
+    margin-bottom: 50px;
+    border: none;
+}
+#adminLogo{
+    padding: 15px;
+}
+#errorAdmin{
+    margin-bottom: 30px;
+}
+#imgInsertRecipe{
+    margin-bottom: 15px;
+}
+#formUpdate form input[type=text], #formUpdate form textarea, #formUpdate form select, #activeSurvey{
+    outline: none;
+    padding: 17px 20px;
+    border-radius: 0;
+    color: var(--heading-color);
+    width: 50%;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    background: var(--bg-color-three);
+}
+#btnSearch{
+    background: #fff;
+    border: none;
+}
+input[type=search]{
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 0;
+    color: var(--heading-color);
+    width: 25%;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    background: var(--bg-color-three);
+}
+#activeSurvey{
+    width: 100%;
+}
+#survey{
+    background-color: var(--bg-color-three);
+    border-radius: var(--border-radius);
+}
+#table{
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+#table h2{
+    margin-bottom: 20px;
+}
+table{
+    margin-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+}
+table tr:nth-child(even),table thead{
+    background-color: #f1f1f1;
+}
+table td{
+    text-align: center;
+    padding: 10px;
+}
+table th{
+    background-color: #797676; 
+    padding: 15px;
+}
